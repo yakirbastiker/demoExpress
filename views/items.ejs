@@ -1,0 +1,14 @@
+<%- include ("partials/header"); -%>
+
+<h1>items page</h1>
+
+<% items.forEach(item => { %>
+
+    <ul>
+        <li> <%= item.name %> </li>
+    </ul>
+ 
+
+<% })   %>
+    <a href="/"> back to home page</a>
+<%- include ("partials/footer"); -%>
